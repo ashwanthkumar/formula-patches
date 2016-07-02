@@ -1,10 +1,10 @@
---- configure.orig	2010-06-05 02:49:34.000000000 -0700
-+++ configure	2010-12-22 12:41:53.000000000 -0800
-@@ -6745,7 +6745,6 @@
+--- configure.orig	2016-07-02 23:50:51.000000000 +0530
++++ configure	2016-07-02 23:51:06.000000000 +0530
+@@ -7036,7 +7036,6 @@
      CFLAGS="-DNDEBUG $CFLAGS"
  fi
  
--LDFLAGS="-Wl,-z,defs"
+-LDFLAGS="-Wl,-z,defs $LDFLAGS"
  
  
  if test x"$ac_cv_func_regexec" != x"yes"; then
